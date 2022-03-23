@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
-		System.out.println("this is Test team 1");
+		System.out.println("this is Test team gauss");
 	}
 
 }
