@@ -6,8 +6,6 @@ public class Main {
 
 		// TODO Auto-generated method stub
 		System.out.println("this is Test team");
-
-
 	}
 
 }
