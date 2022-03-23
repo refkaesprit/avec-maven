@@ -8,7 +8,11 @@ public class ValidationMain {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Partie de Validation");
+		Test test=new Test();
+		test.PrintingGenre();
+
+		
+		System.out.println("\n\nPartie de Validation");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Saisir le code de genre");
 		int code = sc.nextInt();
@@ -18,12 +22,9 @@ public class ValidationMain {
 		}
 		else
 		{
-			System.out.println("On accepte le code numero 1 !!!");
+			System.out.println("On accepte le code numero 1 seulement !!!");
 		}
 		
-		
-
-
 	}
 
 }
