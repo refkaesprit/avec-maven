@@ -1,7 +1,5 @@
 package tn.esprit;
 
-import java.util.Map;
-
 public class service {
 	public service()
 	{

@@ -1,6 +1,5 @@
 package tn.esprit;
 
-import java.util.Map;
 import java.util.Scanner;
 
 public class ValidationMain {
@@ -24,9 +23,9 @@ public class ValidationMain {
 		else
 		{
 			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
-			//afficher la liste des genres avec la methode de test
-			Test test=new Test();
-			test.PrintingGenre();
+			//afficher la liste des genres
+			service_app.RemplissageTableau();
+			
 		}
 		
 		
