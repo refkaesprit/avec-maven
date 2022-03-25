@@ -1,7 +1,7 @@
 package tn.esprit;
 
 import java.util.Scanner;
-
+//chercher si un code existe ou non 
 public class ValidationMain {
 
 	public final Genre genre = null;
@@ -27,7 +27,6 @@ public class ValidationMain {
 			service_app.AfficherGenres();
 			
 		}
-		
 		
 	}
 
