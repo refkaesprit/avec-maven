@@ -10,7 +10,7 @@ public class ValidationMain {
 		//afficher la liste des genres
 		service service_app=new service();
 		System.out.println("** Liste des genre avec leurs codes : ");
-		service_app.RemplissageTableau();
+		service_app.AfficherGenres();
 		
 		System.out.println("\n\nPartie de Validation");
 		Scanner sc = new Scanner(System.in);
@@ -24,7 +24,7 @@ public class ValidationMain {
 		{
 			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
 			//afficher la liste des genres
-			service_app.RemplissageTableau();
+			service_app.AfficherGenres();
 			
 		}
 		

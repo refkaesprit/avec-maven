@@ -5,7 +5,7 @@ public class service {
 	{
 		
 	}
-	public void RemplissageTableau()
+	public void AfficherGenres()
 	{
 		int nb=1;
 		Genre[] genres=Genre.values();
