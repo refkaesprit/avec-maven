@@ -1,5 +1,6 @@
 package tn.esprit;
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class ValidationMain {
@@ -7,6 +8,10 @@ public class ValidationMain {
 	public final Genre genre = null;
 	
 	public static void main(String[] args) {
+		
+		service service_app=new service();
+		System.out.println("** Liste des genre avec leurs codes : ");
+		service_app.RemplissageTableau();
 		
 		Test test=new Test();
 		test.PrintingGenre();
@@ -22,8 +27,9 @@ public class ValidationMain {
 		}
 		else
 		{
-			System.out.println("On accepte le code numero 1 seulement !!!");
+			System.out.println("------On accepte le code numero 1 seulement !!!");
 		}
+		
 		
 	}
 
