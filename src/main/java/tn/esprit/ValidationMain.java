@@ -8,14 +8,10 @@ public class ValidationMain {
 	public final Genre genre = null;
 	
 	public static void main(String[] args) {
-		
+		//afficher la liste des genres
 		service service_app=new service();
 		System.out.println("** Liste des genre avec leurs codes : ");
 		service_app.RemplissageTableau();
-		
-		Test test=new Test();
-		test.PrintingGenre();
-
 		
 		System.out.println("\n\nPartie de Validation");
 		Scanner sc = new Scanner(System.in);
@@ -27,7 +23,10 @@ public class ValidationMain {
 		}
 		else
 		{
-			System.out.println("------On accepte le code numero 1 seulement !!!");
+			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
+			//afficher la liste des genres avec la methode de test
+			Test test=new Test();
+			test.PrintingGenre();
 		}
 		
 		
