@@ -7,7 +7,7 @@ public class ValidationMain {
 	public final Genre genre = null;
 	
 	public static void main(String[] args) {
-		//afficher la liste des genres
+		//afficher la liste des genres (validation test)
 		service service_app=new service();
 		System.out.println("** Liste des genre avec leurs codes : ");
 		service_app.AfficherGenres();
@@ -23,7 +23,7 @@ public class ValidationMain {
 		else
 		{
 			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
-			//afficher la liste des genres
+			//afficher la liste des genres (validation test)
 			service_app.AfficherGenres();
 			
 		}
