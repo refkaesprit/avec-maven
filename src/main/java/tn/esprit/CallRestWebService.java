@@ -1,4 +1,5 @@
 package tn.esprit;
+
 import java.io.IOException;
 
 import org.apache.http.HttpResponse;
@@ -10,20 +11,23 @@ import org.json.JSONObject;
 
 // this is restfull class
 public class CallRestWebService {
-public static final String endpoint = "https://httpbin.org/get";
-public static void main(String[] args) {
-HttpClient client = new DefaultHttpClient();
-HttpGet request = new HttpGet(endpoint);
-String ip = "not found";
-try {
-HttpResponse response = client.execute(request);
-String jsonResponse = EntityUtils.toString(response.getEntity());
-System.out.println("Response as String : " + jsonResponse);
-JSONObject responseObj = new JSONObject(jsonResponse);
+	public static final String endpoint = "https://httpbin.org/get";
 
-ip = responseObj.getString("origin");
-System.out.println("ip : " + ip);
+	public static void main(String[] args) {
+		HttpClient client = new DefaultHttpClient();
+		HttpGet request = new HttpGet(endpoint);
+		String ip = "not found";
+		try {
+			HttpResponse response = client.execute(request);
+			String jsonResponse = EntityUtils.toString(response.getEntity());
+			System.out.println("Response as String : " + jsonResponse);
+			JSONObject responseObj = new JSONObject(jsonResponse);
 
-} catch (IOException e) { e.printStackTrace(); }
-}
+			ip = responseObj.getString("origin");
+			System.out.println("ip : " + ip);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }
