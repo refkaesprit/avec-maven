@@ -17,6 +17,7 @@ public class Main {
 		System.out.println("GOOD");
 		
 		System.out.println("that's all");
+		System.out.println("that's all 2");
 		
 
 	}}
