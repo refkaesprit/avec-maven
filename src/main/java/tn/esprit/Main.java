@@ -11,5 +11,6 @@ public class Main {
 		System.out.println("THIRD day working on preprod env");
 		System.out.println("CONFLIT");
 		System.out.println("CONFLIT 2");
+		System.out.println("i have nothing from my friends work");
 
 	}}
