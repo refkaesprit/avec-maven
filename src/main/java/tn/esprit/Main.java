@@ -18,9 +18,8 @@ public class Main {
 		service s = new service();
 		s.AfficherGenres();
 		System.out.println("i have EVERYTHING from my friends work");
-<<<<<<< HEAD
-		}}
-=======
+		
+
 	
 		
 		System.out.println("that's all");
@@ -29,4 +28,3 @@ public class Main {
 
 
 	}}
->>>>>>> branch 'main' of https://github.com/refkaesprit/avec-maven.git
