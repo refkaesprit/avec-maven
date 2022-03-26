@@ -14,6 +14,7 @@ public class Main {
 		System.out.println("i have nothing from my friends work");
 		
 		System.out.println("i have EVERYTHING from my friends work");
+		System.out.println("GOOD");
 		
 
 	}}
