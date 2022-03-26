@@ -10,11 +10,5 @@ public class Test {
 			System.out.print("   " +genre+ "   ");
 		}
 
-
-	public void PrintingGenre(){
-	for (Genre genre : Genre.values()) {
-		System.out.println();
 	}
-
-}
 }
