@@ -5,7 +5,5 @@ public class Test {
 	for (Genre genre : Genre.values()) {
 		System.out.println();
 	}
-
-
 }
 }
