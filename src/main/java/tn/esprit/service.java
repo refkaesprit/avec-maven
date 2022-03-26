@@ -9,6 +9,7 @@ public class service {
 		Genre[] genres=Genre.values();
 		 for (Genre genre : genres) {
 			 System.out.println("Code de genre : "+ nb+" => Genre : "+genre);
+			 System.out.println("Code de genre : "+ nb+" => Genre : "+genre);
 			 nb++;
 		}
 	}
