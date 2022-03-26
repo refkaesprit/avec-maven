@@ -1,13 +1,17 @@
 package tn.esprit;
 
+import java.util.Map;
 import java.util.Scanner;
-//chercher si un code existe ou non 
+
 public class ValidationMain {
 
 	public final Genre genre = null;
-	
+
 	public static void main(String[] args) {
-		//afficher la liste des genres (validation test)
+
+		System.out.println("Partie de Validation");
+
+		//afficher la liste des genres
 		service service_app=new service();
 		System.out.println("** Liste des genre avec leurs codes : ");
 		service_app.AfficherGenres();
@@ -23,9 +27,9 @@ public class ValidationMain {
 		else
 		{
 			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
-			//afficher la liste des genres (validation test)
-			service_app.AfficherGenres();
-			
+			//afficher la liste des genres avec la methode de test
+			Test test=new Test();
+			test.PrintingGenre();
 		}
 		
 	}
