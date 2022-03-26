@@ -3,8 +3,11 @@ import tn.esprit.*;
 public class Main {
 
 	public static void main(String[] args) {
+		//validation
 		System.out.println("Equipe de validation/Test/Preprode");
 		System.out.println("Equipe de validation");
+		System.out.println("Equipe de validation done");
+		
 		System.out.println("this is Test team gauss 2");
 		System.out.println("this is preprod team");
 		System.out.println("second day working on preprod env");
@@ -15,4 +18,15 @@ public class Main {
 		service s = new service();
 		s.AfficherGenres();
 		System.out.println("i have EVERYTHING from my friends work");
+<<<<<<< HEAD
 		}}
+=======
+	
+		
+		System.out.println("that's all");
+		System.out.println("that's all 2");
+		
+
+
+	}}
+>>>>>>> branch 'main' of https://github.com/refkaesprit/avec-maven.git
