@@ -1,5 +1,5 @@
 package tn.esprit;
-
+import tn.esprit.*;
 public class Main {
 
 	public static void main(String[] args) {
@@ -11,5 +11,8 @@ public class Main {
 		System.out.println("THIRD day working on preprod env");
 		System.out.println("CONFLIT");
 		System.out.println("i have nothing from my friends work");
-
+		
+		service s = new service();
+		s.AfficherGenres();
+	
 	}}
