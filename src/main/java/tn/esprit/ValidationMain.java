@@ -28,8 +28,7 @@ public class ValidationMain {
 		{
 			System.out.println(" ==> Nous n'acceptons que les codes suivants !!!");
 			//afficher la liste des genres avec la methode de test
-			Test test=new Test();
-			test.PrintingGenre();
+			service_app.AfficherGenres();
 		}
 		
 	}
